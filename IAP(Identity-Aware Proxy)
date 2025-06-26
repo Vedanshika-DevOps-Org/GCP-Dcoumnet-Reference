@@ -1,0 +1,10 @@
+Yes, IAP (Identity-Aware Proxy) SSH is the most recommended, secure, and Google-supported method to SSH into a VM without external IP.
+
+🔒 Why IAP SSH?
+No public IP is needed.
+
+Secure access using Google Cloud IAM.
+
+Google-managed tunnel with logging and monitoring.
+
+You can easily control access at the IAM level (you can restrict per user).
