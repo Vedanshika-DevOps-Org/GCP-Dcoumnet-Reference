@@ -1,1 +1,1 @@
-# GCP-Doc
+# IMP points about GCP resources
