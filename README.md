@@ -12,11 +12,13 @@
 | Allow IAP to nginx VM  | Yes       | To SSH into nginx via IAP (if direct access needed)                   |
 | Allow Bastion to nginx | Yes       | To SSH from Bastion to nginx (optional if using Bastion as jump host) |
 
+
 🔒 How GCP Default-Deny Works:
 | Direction | Rule Type            | Purpose                      |
 | --------- | -------------------- | ---------------------------- |
 | Ingress   | default-deny-ingress | Block all ingress by default |
 | Egress    | default-allow-egress | Allow all egress by default  |
+
 
 ✅ Final Setup You Need:
 | Purpose                      | Firewall Rule                      | Source          | Target Tag |
